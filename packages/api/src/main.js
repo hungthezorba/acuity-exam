@@ -3,7 +3,6 @@ import { routes as v3 } from "./routes/v3.js";
 import { fastifySocketIO } from "./socket.js";
 import { WebSocket } from "ws";
 const API_PORT = Number(process.env.API_PORT) || 5000;
-const WS_PORT = Number(process.env.WS_PORT) || 6000;
 const fastify = Fastify({
     logger: true
 });
